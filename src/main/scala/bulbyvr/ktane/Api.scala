@@ -277,7 +277,7 @@ given Decoder[KtaneMod] = c =>
     timeMode <- c.getOrElse[Option[TimeMode]]("TimeMode")(None)
     souvineerStatus <- c.getOrElse[SouvenirStatus]("Souvenir")(SouvenirStatus.Unexamined)
     symbol <- c.getOrElse[String]("Symbol")("??")
-    tutVideos <- c.get[Vector[TutorialVideo]]("TutorialVideos")
+    tutVideos <- c.getOrElse[Vector[TutorialVideo]]("TutorialVideos")(Vector())
     kind <- c.get[ModKind]("Type")
     twitchPlays <- c.getOrElse[Option[TwitchPlays]]("TwitchPlays")(None)
     sheets <- c.get[Vector[String]]("Sheets")

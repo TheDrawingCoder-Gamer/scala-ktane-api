@@ -1,0 +1,43 @@
+{
+	"Compatibility": "Unplayable",
+	"CompatibilityExplanation": "The module can sometimes softlock. The module can sometimes solve when given the wrong answer. Audio clips can sometimes overlap.",
+	"Contributors": {
+	"Audio": [
+	  "BlvdBroken",
+	  "Crazycaleb",
+	  "Deaf"
+	],
+	"Developer": [
+	  "BlvdBroken",
+	  "EpicToast"
+	],
+	"Manual": [
+	  "BlvdBroken"
+	],
+	"Modeling": [
+	  "EpicToast"
+	]
+	},
+	"DefuserDifficulty": "Medium",
+	"Description": "Create chaos as a Subway Sandwich Artist™. Tags: order-button, question-mark-button, yellow-buttons, green-arrow-buttons, upside-down",
+	"ExpertDifficulty": "Medium",
+	"ModuleID": "subway",
+	"Name": "Subway",
+	"Origin": "Mods",
+	"Published": "2022-11-04",
+	"TimeMode": {
+		"Score": 10,
+		"Origin": "Unassigned"
+	},
+	"SourceUrl": "https://github.com/BlvdBroken/ktaneSubway",
+	"SteamID": "2884154662",
+	"Symbol": "Sub",
+	"Type": "Regular",
+	"Author": "BlvdBroken, EpicToast",
+	"Sheets": [
+		"|html|0",
+		"|pdf|2"
+	],
+	"X": 13,
+	"Y": 38
+}
